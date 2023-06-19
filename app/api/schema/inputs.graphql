@@ -1,0 +1,10 @@
+input UserFilter{
+    searchString: String = null
+    limit: Int = 20
+    offset: Int = 0
+}
+
+input UserInput{
+    name: String!
+    email: String!
+}

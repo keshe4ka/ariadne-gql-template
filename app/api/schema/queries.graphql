@@ -1,0 +1,5 @@
+type Query{
+    getUser(id: ID!): User!
+    getUsers(filters: UserFilter!): [User!]!
+
+}

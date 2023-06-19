@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gql-test-site"
+version = "0.1.0"
+description = ""
+authors = ["keshe4ka <artem.anaschenko@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gql_test_site"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ariadne = "^0.19.1"
+pydantic = "^1.10.8"
+python-dotenv = "^1.0.0"
+python-dateutil = "^2.8.2"
+uvicorn = "^0.22.0"
+sqlalchemy = "^2.0.15"
+alembic = "^1.11.1"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
