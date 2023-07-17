@@ -2,3 +2,8 @@ enum Sort{
     asc
     desc
 }
+
+enum PassportType{
+    INTERNAL
+    EXTERNAL
+}

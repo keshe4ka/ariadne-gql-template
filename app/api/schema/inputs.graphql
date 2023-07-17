@@ -1,4 +1,4 @@
-input UserFilter{
+input BaseFilter{
     searchString: String = null
     limit: Int = 20
     offset: Int = 0

@@ -1,5 +1,6 @@
 type Query{
     getUser(id: ID!): User!
-    getUsers(filters: UserFilter!): [User!]!
-
+    getUsers(filters: BaseFilter!): [User!]!
+    getPassport(number: Int!): Passport!
+    getPassports(filters: BaseFilter!): [Passport!]!
 }
