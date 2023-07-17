@@ -28,6 +28,7 @@ if config.config_file_name is not None:
 
 from app.core.models import Base
 from app.modules.users.models import User  # noqa
+from app.modules.passports.models import Passport  # noqa
 
 target_metadata = Base.metadata
 
