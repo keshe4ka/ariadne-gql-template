@@ -16,6 +16,8 @@ uvicorn = "^0.22.0"
 sqlalchemy = "^2.0.15"
 alembic = "^1.11.1"
 psycopg2 = "^2.9.6"
+pytest = "^7.3.2"
+httpx = "^0.24.1"
 
 
 [build-system]
